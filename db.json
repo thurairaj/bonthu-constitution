@@ -1,0 +1,45 @@
+{
+    id: "test1",
+    userId: "5d9409aa94eca0000155c4f1",
+    paymentId: "4",
+    paymentRequests: [
+        {
+            source: {
+                userId: "5d9409aa94eca0000155c4f1",
+                processor: "Payliance",
+                options: [
+                    {
+                        id: "58842",
+                        fundOptionType: {
+                            type: "ACH",
+                            processor: "Payliance"
+                        }
+                    }
+                ]
+            },
+            destination: {
+                userId: "moneylion",
+                processor: "Payliance",
+                options: [
+                    {
+                        id: "59835",
+                        fundOptionType: {
+                            type: "ACH",
+                            processor: "Payliance"
+                        }
+                    }
+                ]
+            },
+            amount: "10.00",
+            paymentDetails: { 
+                "licensedState": "OH",
+                "isSameDay": true,
+                "isRecurring": true
+            },
+            transferRequestId: "test1",
+        }
+    ],
+    submissionDate: "2020-05-19 03:00:00.000Z",
+    effectiveDate: "2020-05-19 03:00:00.000Z",
+    callbackUrl: "http://localhost/",
+}
